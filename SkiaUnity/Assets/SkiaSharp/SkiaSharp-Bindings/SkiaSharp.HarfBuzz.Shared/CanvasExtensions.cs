@@ -57,7 +57,6 @@ namespace SkiaSharp.HarfBuzz
 			// adjust alignment
 			var xOffset = 0f;
 			if (paint.TextAlign != SKTextAlign.Left) {
-				Debug.LogError("not");
 				var width = result.Width;
 				if (paint.TextAlign == SKTextAlign.Center)
 					width *= 0.5f;
